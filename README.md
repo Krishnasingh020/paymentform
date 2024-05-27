@@ -1,7 +1,7 @@
 #Payment Form Project
 
 This project is a simple and responsive payment form built using HTML and CSS. The form includes fields for cardholder name, card number, expiration date, CVV, and a submit button. It is designed to be easy to integrate into any web application that requires a payment gateway.
-
+<hr>
 #Features
 
 Clean and modern design
