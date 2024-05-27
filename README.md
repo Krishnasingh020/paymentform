@@ -8,7 +8,7 @@ Clean and modern design
 Responsive layout
 User-friendly input fields
 CSS animations for better user experience
-
+<hr>
 #Preview
 
 How to Use
@@ -21,12 +21,12 @@ bash
 Copy code
 cd payment-form
 Open index.html in your browser to see the payment form in action.
-
+<hr>
 #Technologies Used
 
 HTML5
 CSS3
-
+<hr>
 #Contribution
 
 Feel free to fork this repository and contribute by submitting a pull request.
