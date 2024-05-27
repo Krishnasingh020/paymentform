@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="" method="get">
+            <h1 class="main_heading">Payment Form</h1>
+           
+            <h2>Contact Information</h2>
+            <p>Name: * <input type="text" name="name" required placeholder="Krishna Singh"></p>
+            
+            <fieldset>
+                <legend> Gender *</legend>
+                    <p>
+                Male <input type="radio" name="gender" required id="male">
+                Female <input type="radio" name="gender" required id="female">
+                    </p>
+             </fieldset>
+            <p>Adress: <textarea name="adsress" id="address" cols="100" rows="10" placeholder="Enter your address"></textarea>
+            </p>
+            <p>Email: *<input type="email" name="email" id="email" required></p>
+            <p>Pincode: <input type="number" name="pincode" id="pincode"></p>
+            <hr>
+            <h2>Payement Information</h2>
+            <p>Card Type: <select name="card_type" id="card_type" required>
+                <option value="">--Select a Card Type</option>
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="rupay">rupay</option>
+            </select></p>
+            <p>
+                crad Number:* <input type="number" name="card_number" id="card_number" required placeholder="1768 1239 8764 1336">
+            </p>
+            <p>
+                Expiration Date: <input type="date" name="exp_date" id="exp_date">
+            </p>
+            <p>
+                CVV * <input type="password" name="cvv" id="cvv" >
+            </p>
+            <input type="submit" value="Pay Now">
+
+
+
+
+
+        </form>
+    </div>
+    
+   
+</body>
+</html>
